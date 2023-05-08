@@ -19,3 +19,5 @@ cardContainer.removeChild(firstCard);
 const heading = document.querySelector('.text-center');
 
 heading.style.color = 'orange';
+
+heading.style.fontSize = '2em';
