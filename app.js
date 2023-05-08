@@ -16,3 +16,6 @@ const firstCard = cardContainer.firstElementChild
 
 cardContainer.removeChild(firstCard);
 
+const heading = document.querySelector('.text-center');
+
+heading.style.color = 'orange';
