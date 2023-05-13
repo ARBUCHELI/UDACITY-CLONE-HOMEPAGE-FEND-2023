@@ -30,6 +30,14 @@ heading.classList.remove('ice-cream');
 
 //heading.classList.toggle('text-center');
 
+document.addEventListener('click', function() {
+    const mainHeading = document.querySelector('h1');
+    mainHeading.style.background = 'red';
+})
 
+document.body.addEventListener('keypress', function () {
+    console.log('removing first child');
+    document.querySelector('#contain-all').firstElementChild.remove();
+})
 
 
