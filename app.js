@@ -31,3 +31,5 @@ heading.classList.remove('ice-cream');
 //heading.classList.toggle('text-center');
 
 
+
+
