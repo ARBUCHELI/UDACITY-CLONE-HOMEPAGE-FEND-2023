@@ -21,3 +21,13 @@ const heading = document.querySelector('.text-center');
 heading.style.color = 'orange';
 
 heading.style.fontSize = '2em';
+
+console.log(heading.classList.contains('text-center'));
+
+heading.classList.add('ice-cream');
+
+heading.classList.remove('ice-cream');
+
+//heading.classList.toggle('text-center');
+
+
