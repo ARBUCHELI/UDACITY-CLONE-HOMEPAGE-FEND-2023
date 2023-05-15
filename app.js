@@ -98,7 +98,8 @@ myCustomDiv.addEventListener('click', respondToTheClick);
 document.body.appendChild(myCustomDiv);
 */
 
-const myCustomDiv = document.createElement('div');
+//Third Refactoring
+/*const myCustomDiv = document.createElement('div');
 
 function respondToTheClick(evt) {
     console.log('A paragraph was clicked: ' + evt.target.textContent);
@@ -114,4 +115,8 @@ for (let i = 1; i <= 200; i++) {
 document.body.appendChild(myCustomDiv);
 
 myCustomDiv.addEventListener('click', respondToTheClick);
+*/
 
+document.addEventListener('DOMContentLoaded', function () {
+    console.log('the DOM is ready to be interacted with!');
+});
