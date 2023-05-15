@@ -60,3 +60,19 @@ document.addEventListener('click', function (event) {
 	document.body.appendChild(myCustomDiv);	
 */
 
+const myCustomDiv = document.createElement('div');
+
+function respondToTheClick() {
+    console.log('A paragraph was clicked.');
+}
+
+for (let i = 1; i <= 200; i++) {
+    const newElement = document.createElement('p');
+    newElement.textContent = 'This is paragraph number ' + i;
+
+    newElement.addEventListener('click', respondToTheClick);
+
+    myCustomDiv.appendChild(newElement);
+}
+
+document.body.appendChild(myCustomDiv);
