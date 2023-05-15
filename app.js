@@ -40,4 +40,8 @@ document.body.addEventListener('keypress', function () {
     document.querySelector('#contain-all').firstElementChild.remove();
 })
 
+document.addEventListener('click', function (event) {
+    console.log(event);
+})
+
 
